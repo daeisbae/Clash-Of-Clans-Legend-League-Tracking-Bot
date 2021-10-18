@@ -4,7 +4,6 @@ import asyncio
 from typing import List, Dict, Optional, Union
 
 
-
 class PlayerStats:
     def __init__(self, ID: str, Password: str, filename: str) -> None:
         nest_asyncio.apply()
